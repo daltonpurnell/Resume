@@ -134,10 +134,16 @@ p.alert, p.notice {
 
 /* About Me styles */
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .image-cropper {
     width: 160px;
     height: 160px;
-    position: relative;
+    margin:auto;
+    float: none;
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid #fff;
@@ -157,7 +163,12 @@ img {
 
 .contact-line {
   text-align: center;
-  line-height: 25px;
+  line-height: 15px;
+}
+
+.contact-title {
+  text-align: center;
+  line-height: 30px;
 }
 
 .about-me {
