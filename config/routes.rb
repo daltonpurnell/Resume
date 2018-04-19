@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+  get 'clients/download_pdf'
+
   get 'contact/index'
 
   get 'experience/index'
+
+  get "experience/download_pdf"
 
   get 'welcome/index'
 
